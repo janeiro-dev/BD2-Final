@@ -1,0 +1,4 @@
+# line endings
+*.sql   eol=lf
+*.txt   eol=lf
+*.text  eol=lf
