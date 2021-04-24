@@ -1,4 +1,4 @@
-
+-- Comentario de prueva
    CREATE TABLE locaciones  
     ( locacion_id    INT NOT NULL 
                      CONSTRAINT lo_id_pk  
