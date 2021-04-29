@@ -31,3 +31,9 @@ Posicionarnos como la primera opción para rentar un vehículo, tanto para extra
 <br/>
 ## Organigrama de la empresa
 ![Organigrama de la empresa](./imagenes/organigrama.png)
+
+<br/>
+<br/>
+
+## Modelo de datos (no esta terminado)
+![Modelo de datos](./imagenes/Modelo_de_datos_v0.1.png)
