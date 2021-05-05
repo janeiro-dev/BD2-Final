@@ -118,10 +118,10 @@ CREATE TABLE empleados
     , id_sucursal           NUMBER NOT NULL
     , id_direccion_empleado NUMBER NOT NULL
     , edad                  NUMBER NOT NULL
-    , cedula                NUMBER NOT NULL
-    , email                 NUMBER NOT NULL
-    , primer_nombre         NUMBER NOT NULL
-    , apellido              NUMBER NOT NULL
+    , cedula                VARCHAR2(11) NOT NULL
+    , email                 VARCHAR2(60) NOT NULL
+    , primer_nombre         VARCHAR2(60) NOT NULL
+    , apellido              VARCHAR2(60) NOT NULL
     );
 
 CREATE UNIQUE INDEX cedula_ui
@@ -428,7 +428,7 @@ CREATE TABLE reporte_de_averias
     ( id_reporte    NUMBER
     , id_cliente    NUMBER
     , id_vehiculo   NUMBER NOT NULL
-    , descripcion   NUMBER NOT NULL
+    , descripcion   VARCHAR2(300) NOT NULL
     , prioridad     NUMBER NOT NULL
     );
 
