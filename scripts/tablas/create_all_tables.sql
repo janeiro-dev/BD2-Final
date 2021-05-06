@@ -468,3 +468,6 @@ ADD ( CONSTRAINT id_renta_pk
             FOREIGN KEY (id_cliente)
                 REFERENCES clientes(id_cliente)
     );
+
+DROP INDEX sucursal_ui;
+
