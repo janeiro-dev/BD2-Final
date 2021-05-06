@@ -1,3 +1,6 @@
+
+
+
 insert into empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
@@ -7,7 +10,7 @@ VALUES(
 1,
 9,
 65,
-22588996635,
+'22588996635',
 'íngluisv@gmail.com',
 'Luis',
 'Velmonte');
@@ -21,7 +24,7 @@ VALUES(
 1,
 8,
 54,
-22577997895,
+'22577997895',
 'Yvicini@gmail.com',
 'Yuliana',
 'Vicini');
@@ -35,7 +38,7 @@ VALUES(
 1,
 7,
 27,
-00188996457,
+'00188996457',
 'maira1122@gmail.com',
 'Maira',
 'Placido');
@@ -49,7 +52,7 @@ VALUES(
 1,
 6,
 30,
-00145785124,
+'00145785124',
 'labarbi003@gmail.com',
 'Vanessa',
 'Rodriguez');
@@ -63,7 +66,7 @@ VALUES(
 1,
 5,
 26,
-00157585965,
+'00157585965',
 'jl004@gmail.com',
 'Jose',
 'Lara');
@@ -77,7 +80,7 @@ VALUES(
 1,
 4,
 34,
-00145769557,
+'00145769557',
 'Plier@gmail.com',
 'Pablo',
 'Candelier');
@@ -91,7 +94,7 @@ VALUES(
 1,
 3,
 22,
-00247582565,
+'00247582565',
 'thuchamakito09@gmail.com',
 'Moises',
 'Paniagua');
@@ -105,7 +108,7 @@ VALUES(
 1,
 2,
 25,
-00489542447,
+'00489542447',
 'tt0033@gmail.com',
 'Tito',
 'Torres');
@@ -119,9 +122,8 @@ VALUES(
 1,
 1,
 45,
-00185749685,
+'00185749685',
 'altarrss@gmail.com',
 'Altagracia',
 'Rosso');
-
 
