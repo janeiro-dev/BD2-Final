@@ -1,4 +1,4 @@
-insert into tipos_servicios
+insert into RENTA_CAR.tipos_servicios
 (id_tipo_servicio,nombre,codigo,descripcion)
 VALUES(
 1,
@@ -6,7 +6,7 @@ VALUES(
 905,
 'Suplidora de piezas de vehiculos');
 
-insert into tipos_servicios
+insert into RENTA_CAR.tipos_servicios
 (id_tipo_servicio,nombre,codigo,descripcion)
 VALUES(
 2,
@@ -14,7 +14,7 @@ VALUES(
 906,
 'Reparacion de vehiculos');
 
-insert into tipos_servicios
+insert into RENTA_CAR.tipos_servicios
 (id_tipo_servicio,nombre,codigo,descripcion)
 VALUES(
 3,
@@ -22,7 +22,7 @@ VALUES(
 907,
 'Mantenimiento y reparacion de tuberias');
 
-insert into tipos_servicios
+insert into RENTA_CAR.tipos_servicios
 (id_tipo_servicio,nombre,codigo,descripcion)
 VALUES(
 4,
@@ -30,7 +30,7 @@ VALUES(
 908,
 'Mantenimiento y reparacion de aires acondicionados');
 
-insert into tipos_servicios
+insert into RENTA_CAR.tipos_servicios
 (id_tipo_servicio,nombre,codigo,descripcion)
 VALUES(
 5,
