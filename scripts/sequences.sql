@@ -1,6 +1,4 @@
-
- 
- CREATE SEQUENCE Beneficios_empleados_seq  
+  CREATE SEQUENCE Beneficios_empleados_seq  
  START WITH     10  
  INCREMENT BY   10  
  MAXVALUE       50  

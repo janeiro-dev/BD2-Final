@@ -1,7 +1,5 @@
 
-
-
-insert into empleados
+insert into RENTA_CAR.empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(
@@ -11,11 +9,11 @@ VALUES(
 9,
 65,
 '22588996635',
-'íngluisv@gmail.com',
+'ingluisv@gmail.com',
 'Luis',
 'Velmonte');
 
-insert into empleados
+insert into RENTA_CAR.empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(
@@ -29,7 +27,7 @@ VALUES(
 'Yuliana',
 'Vicini');
 
-insert into empleados
+insert into RENTA_CAR.empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(
@@ -43,7 +41,7 @@ VALUES(
 'Maira',
 'Placido');
 
-insert into empleados
+insert into RENTA_CAR.empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(
@@ -57,7 +55,7 @@ VALUES(
 'Vanessa',
 'Rodriguez');
 
-insert into empleados
+insert into RENTA_CAR.empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(
@@ -71,7 +69,7 @@ VALUES(
 'Jose',
 'Lara');
 
-insert into empleados
+insert into RENTA_CAR.empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(
@@ -85,7 +83,7 @@ VALUES(
 'Pablo',
 'Candelier');
 
-insert into empleados
+insert into RENTA_CAR.empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(
@@ -99,7 +97,7 @@ VALUES(
 'Moises',
 'Paniagua');
 
-insert into empleados
+insert into RENTA_CAR.empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(
@@ -113,7 +111,7 @@ VALUES(
 'Tito',
 'Torres');
 
-insert into empleados
+insert into RENTA_CAR.empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(
