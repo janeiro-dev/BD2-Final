@@ -4,7 +4,7 @@ GRANT ALL PRIVILEGES TO RENTA_CAR;
 GRANT UNLIMITED TABLESPACE TO RENTA_CAR;
 
 -- Tables --
--- cl scr
+
 start tablas/create_all_tables.sql
 start add_fk_suplidor.sql
 
