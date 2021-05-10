@@ -1,4 +1,4 @@
-insert into otros_servicios
+insert into RENTA_CAR.otros_servicios
 (id_servicio,id_empleado_proveedor
 ,id_sucursal,id_tipo_servicio,costo,descripcion)
 VALUES(
@@ -9,7 +9,7 @@ VALUES(
 25985,
 'Reparacion lavamanos, cambio de todos los grifos');
 
-insert into otros_servicios
+insert into RENTA_CAR.otros_servicios
 (id_servicio,id_empleado_proveedor
 ,id_sucursal,id_tipo_servicio,costo,descripcion)
 VALUES(
@@ -20,7 +20,7 @@ VALUES(
 1985,
 'Limpieza rutinaria aire');
 
-insert into otros_servicios
+insert into RENTA_CAR.otros_servicios
 (id_servicio,id_empleado_proveedor
 ,id_sucursal,id_tipo_servicio,costo,descripcion)
 VALUES(

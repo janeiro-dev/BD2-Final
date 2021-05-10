@@ -1,4 +1,4 @@
-insert into sucursales
+insert into RENTA_CAR.sucursales
 (id_sucursal,direccion,id_locacion,telefono,email)
 VALUES(
 1,
