@@ -31,3 +31,10 @@ CREATE SEQUENCE reportes_averias_seq
     NOMAXVALUE
     NOCACHE
     NOCYCLE; 
+
+CREATE SEQUENCE precios_seq
+    START WITH      10
+    INCREMENT BY    10
+    NOMAXVALUE
+    NOCACHE
+    NOCYCLE;

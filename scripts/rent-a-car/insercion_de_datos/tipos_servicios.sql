@@ -2,7 +2,7 @@ insert into RENTA_CAR.tipos_servicios
 (id_tipo_servicio,nombre,codigo,descripcion)
 VALUES(
 1,
-'Suplidor',
+'Electricidad',
 905,
 'Suplidora de piezas de vehiculos');
 

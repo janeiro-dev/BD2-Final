@@ -11,7 +11,6 @@ prompt '*** Creando rol Conductor...'
 CREATE ROLE CONDUCTOR;
 
 prompt '*** Creando rol Lavador...'
-CREATE ROLE LAVADOR;
+CREATE ROLE mecanico;
 
-prompt '*** Creando rol Encargado_Limpieza...'
-CREATE ROLE ENCARGADO_LIMPIEZA;
+
