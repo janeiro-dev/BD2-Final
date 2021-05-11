@@ -4,6 +4,7 @@ CREATE TABLE locaciones
     , ciudad        VARCHAR2(60)
     , provincia     VARCHAR2(60)
     , codigo_postal VARCHAR2(10)
+    , pais          VARCHAR2(20)
     );
 
 CREATE UNIQUE INDEX id_locacion_pk 
