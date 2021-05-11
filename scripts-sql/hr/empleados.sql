@@ -1,5 +1,5 @@
 
-insert into RENTA_CAR.empleados
+insert into empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(
@@ -13,7 +13,7 @@ VALUES(
 'Luis',
 'Velmonte');
 
-insert into RENTA_CAR.empleados
+insert into empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(
@@ -27,7 +27,7 @@ VALUES(
 'Yuliana',
 'Vicini');
 
-insert into RENTA_CAR.empleados
+insert into empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(
@@ -41,7 +41,7 @@ VALUES(
 'Maira',
 'Placido');
 
-insert into RENTA_CAR.empleados
+insert into empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(
@@ -55,7 +55,7 @@ VALUES(
 'Vanessa',
 'Rodriguez');
 
-insert into RENTA_CAR.empleados
+insert into empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(
@@ -69,7 +69,7 @@ VALUES(
 'Jose',
 'Lara');
 
-insert into RENTA_CAR.empleados
+insert into empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(
@@ -83,7 +83,7 @@ VALUES(
 'Pablo',
 'Candelier');
 
-insert into RENTA_CAR.empleados
+insert into empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(
@@ -97,7 +97,7 @@ VALUES(
 'Moises',
 'Paniagua');
 
-insert into RENTA_CAR.empleados
+insert into empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(
@@ -111,7 +111,7 @@ VALUES(
 'Tito',
 'Torres');
 
-insert into RENTA_CAR.empleados
+insert into empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
 id_direccion_empleado,edad,cedula,email,primer_nombre,apellido)
 VALUES(

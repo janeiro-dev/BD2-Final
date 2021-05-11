@@ -4,6 +4,7 @@ CREATE TABLE locaciones
     , ciudad        VARCHAR2(60)
     , provincia     VARCHAR2(60)
     , codigo_postal VARCHAR2(10)
+    , pais          VARCHAR2(20)
     );
 
 CREATE UNIQUE INDEX id_locacion_pk 
@@ -28,6 +29,9 @@ ON direcciones (id_direccion);
 ALTER TABLE direcciones
 ADD ( CONSTRAINT id_direccion_pk
             PRIMARY KEY (id_direccion)
+    , CONSTRAINT id_locacion_fk
+            FOREIGN KEY (id_locacion)
+                REFERENCES locaciones(id_locacion)
     );
 
 -- clientes
@@ -38,6 +42,7 @@ CREATE TABLE clientes
     , tipo_identificacion   VARCHAR2(20)
     , numero_identificacion VARCHAR2(20)
     , numero_licencia_cond  VARCHAR2(20)
+    , telefono          VARCHAR2(20)
     , edad              NUMBER
     , nacionalidad      NUMBER
     , id_direccion      NUMBER
