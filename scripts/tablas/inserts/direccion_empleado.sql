@@ -1,4 +1,4 @@
-insert into RENTA_CAR.direccion_empleado
+insert into RENT_A_CAR.direccion_empleado
 (id_direccion_empleado,calle,sector,ciudad,numero_vivienda)
 VALUES(
 1,
@@ -7,7 +7,7 @@ VALUES(
 'Santo Domingo Norte',
 '#13');
 
-insert into RENTA_CAR.direccion_empleado
+insert into RENT_A_CAR.direccion_empleado
 (id_direccion_empleado,calle,sector,ciudad,numero_vivienda)
 VALUES(
 2,
@@ -16,7 +16,7 @@ VALUES(
 'Santo Domingo Norte',
 '#54');
 
-insert into RENTA_CAR.direccion_empleado
+insert into RENT_A_CAR.direccion_empleado
 (id_direccion_empleado,calle,sector,ciudad,numero_vivienda)
 VALUES(
 3,
@@ -25,7 +25,7 @@ VALUES(
 'Santo Domingo Este',
 '#36');
 
-insert into RENTA_CAR.direccion_empleado
+insert into RENT_A_CAR.direccion_empleado
 (id_direccion_empleado,calle,sector,ciudad,numero_vivienda)
 VALUES(
 4,
@@ -34,7 +34,7 @@ VALUES(
 'Santo Domingo Este',
 '#03');
 
-insert into RENTA_CAR.direccion_empleado
+insert into RENT_A_CAR.direccion_empleado
 (id_direccion_empleado,calle,sector,ciudad,numero_vivienda)
 VALUES(
 5,
@@ -43,7 +43,7 @@ VALUES(
 'Distrito Nacional',
 '#18');
 
-insert into RENTA_CAR.direccion_empleado
+insert into RENT_A_CAR.direccion_empleado
 (id_direccion_empleado,calle,sector,ciudad,numero_vivienda)
 VALUES(
 6,
@@ -52,7 +52,7 @@ VALUES(
 'Santo Domingo Norte',
 '#45');
 
-insert into RENTA_CAR.direccion_empleado
+insert into RENT_A_CAR.direccion_empleado
 (id_direccion_empleado,calle,sector,ciudad,numero_vivienda)
 VALUES(
 7,
@@ -61,7 +61,7 @@ VALUES(
 'Distrito Nacional',
 '#30');
 
-insert into RENTA_CAR.direccion_empleado
+insert into RENT_A_CAR.direccion_empleado
 (id_direccion_empleado,calle,sector,ciudad,numero_vivienda)
 VALUES(
 8,
@@ -70,7 +70,7 @@ VALUES(
 'Distrito Nacional',
 '#200');
 
-insert into RENTA_CAR.direccion_empleado
+insert into RENT_A_CAR.direccion_empleado
 (id_direccion_empleado,calle,sector,ciudad,numero_vivienda)
 VALUES(
 9,

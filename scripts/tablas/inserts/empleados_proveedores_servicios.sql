@@ -1,4 +1,4 @@
-insert into RENTA_CAR.empleados_proveedores_servicios
+insert into RENT_A_CAR.empleados_proveedores_servicios
 (id_empleado_proveedor,primer_nombre,apellido,id_proveedor_servicio)
 VALUES(
 1,
@@ -6,7 +6,7 @@ VALUES(
 'Castillo Ramirez',
 1);
 
-insert into RENTA_CAR.empleados_proveedores_servicios
+insert into RENT_A_CAR.empleados_proveedores_servicios
 (id_empleado_proveedor,primer_nombre,apellido,id_proveedor_servicio)
 VALUES(
 2,
@@ -14,7 +14,7 @@ VALUES(
 'Reynoso',
 1);
 
-insert into RENTA_CAR.empleados_proveedores_servicios
+insert into RENT_A_CAR.empleados_proveedores_servicios
 (id_empleado_proveedor,primer_nombre,apellido,id_proveedor_servicio)
 VALUES(
 3,
@@ -22,7 +22,7 @@ VALUES(
 'Fernandez',
 2);
 
-insert into RENTA_CAR.empleados_proveedores_servicios
+insert into RENT_A_CAR.empleados_proveedores_servicios
 (id_empleado_proveedor,primer_nombre,apellido,id_proveedor_servicio)
 VALUES(
 4,
@@ -30,7 +30,7 @@ VALUES(
 'Montero',
 2);
 
-insert into RENTA_CAR.empleados_proveedores_servicios
+insert into RENT_A_CAR.empleados_proveedores_servicios
 (id_empleado_proveedor,primer_nombre,apellido,id_proveedor_servicio)
 VALUES(
 5,
@@ -38,7 +38,7 @@ VALUES(
 'Almonte',
 3);
 
-insert into RENTA_CAR.empleados_proveedores_servicios
+insert into RENT_A_CAR.empleados_proveedores_servicios
 (id_empleado_proveedor,primer_nombre,apellido,id_proveedor_servicio)
 VALUES(
 6,
@@ -46,7 +46,7 @@ VALUES(
 'Fuente',
 3);
 
-insert into RENTA_CAR.empleados_proveedores_servicios
+insert into RENT_A_CAR.empleados_proveedores_servicios
 (id_empleado_proveedor,primer_nombre,apellido,id_proveedor_servicio)
 VALUES(
 7,
@@ -54,7 +54,7 @@ VALUES(
 'Alberto',
 4);
 
-insert into RENTA_CAR.empleados_proveedores_servicios
+insert into RENT_A_CAR.empleados_proveedores_servicios
 (id_empleado_proveedor,primer_nombre,apellido,id_proveedor_servicio)
 VALUES(
 8,
@@ -62,7 +62,7 @@ VALUES(
 'Salazar Lopez',
 4);
 
-insert into RENTA_CAR.empleados_proveedores_servicios
+insert into RENT_A_CAR.empleados_proveedores_servicios
 (id_empleado_proveedor,primer_nombre,apellido,id_proveedor_servicio)
 VALUES(
 9,
@@ -70,7 +70,7 @@ VALUES(
 'Mendez',
 5);
 
-insert into RENTA_CAR.empleados_proveedores_servicios
+insert into RENT_A_CAR.empleados_proveedores_servicios
 (id_empleado_proveedor,primer_nombre,apellido,id_proveedor_servicio)
 VALUES(
 10,
@@ -78,7 +78,7 @@ VALUES(
 'Snow',
 5);
 
-insert into RENTA_CAR.empleados_proveedores_servicios
+insert into RENT_A_CAR.empleados_proveedores_servicios
 (id_empleado_proveedor,primer_nombre,apellido,id_proveedor_servicio)
 VALUES(
 11,
@@ -86,7 +86,7 @@ VALUES(
 'Lagos Perez',
 6);
 
-insert into RENTA_CAR.empleados_proveedores_servicios
+insert into RENT_A_CAR.empleados_proveedores_servicios
 (id_empleado_proveedor,primer_nombre,apellido,id_proveedor_servicio)
 VALUES(
 12,

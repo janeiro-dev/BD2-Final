@@ -10,7 +10,7 @@ DECLARE
 
 BEGIN
 
-  RENTA_CAR.Drop_User(user_name);
+  RENT_A_CAR.Drop_User(user_name);
   
 END;
 /
