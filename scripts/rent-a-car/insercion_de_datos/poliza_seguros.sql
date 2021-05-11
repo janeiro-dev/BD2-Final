@@ -17,7 +17,7 @@ INSERT INTO polizas_seguros VALUES
 INSERT INTO polizas_seguros VALUES
     ( 30
     , 'Seguro de reembolso de alquiler, Cobertura de protección contra lesiones personales, Protección contra conductor sin seguro, Cobertura de costos médicos.'
-    , ''
+    , 'Amplilada mas costos'
     , 520
     , 3000
     );
