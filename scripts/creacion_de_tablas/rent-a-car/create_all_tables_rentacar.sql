@@ -28,6 +28,9 @@ ON direcciones (id_direccion);
 ALTER TABLE direcciones
 ADD ( CONSTRAINT id_direccion_pk
             PRIMARY KEY (id_direccion)
+    , CONSTRAINT id_locacion_fk
+            FOREIGN KEY (id_locacion)
+                REFERENCES locaciones(id_locacion)
     );
 
 -- clientes
