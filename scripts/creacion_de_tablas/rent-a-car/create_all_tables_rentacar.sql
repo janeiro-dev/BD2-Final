@@ -43,6 +43,7 @@ CREATE TABLE clientes
     , numero_licencia_cond  VARCHAR2(20)
     , edad              NUMBER
     , nacionalidad      NUMBER
+    , telefono          VARCHAR2(20)
     , id_direccion      NUMBER
     );
 
