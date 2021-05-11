@@ -1,38 +1,39 @@
-insert into RENT_A_CAR.locacion
-(id_locacion,ciudad,provincia)
+insert into locacion
+(id_locacion,ciudad,provincia,codigo_postal)
 VALUES(
 1,
 'Higuey',
-'La Altagarcia');
+'La Altagarcia',
+'23000');
 
-insert into RENT_A_CAR.locacion
-(id_locacion,ciudad,provincia)
+insert into locacion
+(id_locacion,ciudad,provincia,codigo_postal)
 VALUES(
 2,
 'Valverde',
-'Mao');
+'Mao',
+'61000');
 
-insert into RENT_A_CAR.locacion
-(id_locacion,ciudad,provincia)
+insert into locacion
+(id_locacion,ciudad,provincia,codigo_postal)
 VALUES(
 3,
 'Cien fuegos',
-'Santiago');
+'Santiago',
+'51000');
 
-insert into RENT_A_CAR.locacion
-(id_locacion,ciudad,provincia)
+insert into locacion
+(id_locacion,ciudad,provincia,codigo_postal)
 VALUES(
 4,
 'Villa Mella',
-'Santo Domingo');
+'Santo Domingo',
+'11206');
 
-insert into RENT_A_CAR.locacion
-(id_locacion,ciudad,provincia)
+insert into locacion
+(id_locacion,ciudad,provincia,codigo_postal)
 VALUES(
 5,
 'Saban Perdida',
-'Santo Domingo');
-
-
-
-
+'Santo Domingo',
+'11404');
