@@ -8,6 +8,7 @@ GRANT UNLIMITED TABLESPACE TO RENT_A_CAR;
 start tablas/create_all_tables.sql
 start add_fk_suplidor.sql
 
+start tablas/inserts/clientes.sql
 start tablas/inserts/beneficios_empleados.sql
 start tablas/inserts/direccion_empleado.sql
 start tablas/inserts/sucursales.sql
