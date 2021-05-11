@@ -1,4 +1,4 @@
-insert into RENTA_CAR.puestos_trabajo
+insert into puestos_trabajo
 (id_puesto_trabajo,nombre,salario,descripcion,id_beneficio)
 VALUES(
 001,
@@ -7,16 +7,16 @@ VALUES(
 'Encargado de la parte gerencial/administrativa de la empresa',
 10);
 
-insert into RENTA_CAR.puestos_trabajo
+insert into puestos_trabajo
 (id_puesto_trabajo,nombre,salario,descripcion,id_beneficio)
 VALUES(
 002,
 'DIRECTOR',
 108500,
-'Este tiene la dirección superior de una empresa',
+'Este tiene la direcciï¿½n superior de una empresa',
 10);
 
-insert into RENTA_CAR.puestos_trabajo
+insert into puestos_trabajo
 (id_puesto_trabajo,nombre,salario,descripcion,id_beneficio)
 VALUES(
 003,
@@ -26,7 +26,7 @@ VALUES(
 20);
 
 
-insert into RENTA_CAR.puestos_trabajo
+insert into puestos_trabajo
 (id_puesto_trabajo,nombre,salario,descripcion,id_beneficio)
 VALUES(
 004,
@@ -35,7 +35,7 @@ VALUES(
 'Es una persona encargada conducir y transportar vehiculos y demas',
 30);
 
-insert into RENTA_CAR.puestos_trabajo
+insert into puestos_trabajo
 (id_puesto_trabajo,nombre,salario,descripcion,id_beneficio)
 VALUES(
 005,
@@ -44,7 +44,7 @@ VALUES(
 'Es una persona encargada de lavar los vehiculos',
 30);
 
-insert into RENTA_CAR.puestos_trabajo
+insert into puestos_trabajo
 (id_puesto_trabajo,nombre,salario,descripcion,id_beneficio)
 VALUES(
 006,
