@@ -1,17 +1,17 @@
-  CREATE SEQUENCE Beneficios_empleados_seq  
+  CREATE SEQUENCE RENTA_CAR.Beneficios_empleados_seq  
  START WITH     10  
  INCREMENT BY   10  
  MAXVALUE       50  
  NOCACHE  
  NOCYCLE;
  
- CREATE SEQUENCE Clientes_seq  
+ CREATE SEQUENCE RENTA_CAR.Clientes_seq  
  START WITH     1000  
  INCREMENT BY   1    
  NOCACHE  
  NOCYCLE;
  
- CREATE SEQUENCE Empresas_Aseguradoras_seq  
+ CREATE SEQUENCE RENTA_CAR.Empresas_Aseguradoras_seq  
  START WITH     500
  INCREMENT BY   10  
  MAXVALUE       700  
