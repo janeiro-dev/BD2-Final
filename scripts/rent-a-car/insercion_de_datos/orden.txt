@@ -1,0 +1,12 @@
+locaciones
+direcciones
+
+* cliente
+
+suplidores
+sucursales
+empresas_aseguradoras
+polizas_seguros
+precios_renta
+vehiculos
+adquisicion_de_vehiculos
