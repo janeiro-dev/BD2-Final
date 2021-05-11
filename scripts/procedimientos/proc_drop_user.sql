@@ -1,9 +1,3 @@
-SET SERVEROUTPUT ON
-SET ECHO OFF
-SET VERIFY OFF
-
-ACCEPT name CHAR PROMPT 'Ingrese nombre del usuario a eliminar: '
-
 CREATE OR REPLACE PROCEDURE Drop_User (user_name varchar) 
 AS
   SQL1 varchar(100);
@@ -28,18 +22,7 @@ BEGIN
 
   EXCEPTION
   WHEN USER_NO_EXIST THEN
-    DBMS_OUTPUT.PUT_LINE('ERROR: Nombre de usuario "' || user_name || '" no existe!');
+    DBMS_OUTPUT.PUT_LINE('ERROR: Nombre de usuario "' || UPPER(user_name) || '" no existe!');
 
 END Drop_User;
-/
-
-DECLARE
-
-  user_name varchar(20) := '&name';
-
-BEGIN
-
-  Drop_User(user_name);
-  
-END;
 /

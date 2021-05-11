@@ -29,3 +29,8 @@ start grant_permissions_roles.sql
 -- Sequences --
 
 start sequences.sql
+
+-- Procedures --
+
+start procedimientos/proc_create_new_user.sql
+start procedimientos/proc_drop_user.sql
