@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE Create_New_User (user_name varchar, user_pass varchar, user_role varchar) 
+CREATE OR REPLACE PROCEDURE RENTA_CAR.Create_New_User (user_name varchar, user_pass varchar, user_role varchar) 
 AS
   SQL1 varchar(100);
   SQL2 varchar(100);

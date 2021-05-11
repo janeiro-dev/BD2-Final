@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE Drop_User (user_name varchar) 
+CREATE OR REPLACE PROCEDURE RENTA_CAR.Drop_User (user_name varchar) 
 AS
   SQL1 varchar(100);
   SQL2 varchar(100);
