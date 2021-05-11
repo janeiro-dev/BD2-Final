@@ -35,7 +35,7 @@ BEGIN
   IF user_role_num = 5 THEN user_role := 'LAVADOR'; END IF;
   IF user_role_num = 6 THEN user_role := 'ENCARGADO_LIMPIEZA'; END IF;
 
-  EXEC RENTA_CAR.Create_New_User(user_name, user_pass, user_role);
+  RENTA_CAR.Create_New_User(user_name, user_pass, user_role);
   
   EXCEPTION
   WHEN INVALID_ROLE THEN

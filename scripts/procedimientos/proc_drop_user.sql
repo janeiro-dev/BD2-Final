@@ -18,11 +18,11 @@ BEGIN
   EXECUTE IMMEDIATE SQL1;
   EXECUTE IMMEDIATE SQL2;
 
-  DBMS_OUTPUT.PUT_LINE('Usuario eliminado!');
+  DBMS_OUTPUT.PUT_LINE(chr(10) || 'Usuario eliminado!');
 
   EXCEPTION
   WHEN USER_NO_EXIST THEN
-    DBMS_OUTPUT.PUT_LINE('ERROR: Nombre de usuario "' || UPPER(user_name) || '" no existe!');
+    DBMS_OUTPUT.PUT_LINE(chr(10) || 'ERROR: Nombre de usuario "' || UPPER(user_name) || '" no existe!');
 
 END Drop_User;
 /

@@ -27,11 +27,11 @@ BEGIN
   EXECUTE IMMEDIATE SQL4;
   EXECUTE IMMEDIATE SQL5;
 
-  DBMS_OUTPUT.PUT_LINE('Usuario creado!');
+  DBMS_OUTPUT.PUT_LINE(chr(10) || 'Usuario creado!');
 
   EXCEPTION
   WHEN USER_EXIST THEN
-    DBMS_OUTPUT.PUT_LINE('ERROR: Nombre de usuario "' || UPPER(user_name) || '" ya existe!');
+    DBMS_OUTPUT.PUT_LINE(chr(10) || 'ERROR: Nombre de usuario "' || UPPER(user_name) || '" ya existe!');
 
 END Create_New_User;
 /
