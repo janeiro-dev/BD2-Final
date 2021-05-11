@@ -1,4 +1,4 @@
-insert into locacion
+insert into locaciones
 (id_locacion,ciudad,provincia,codigo_postal)
 VALUES(
 1,
@@ -6,7 +6,7 @@ VALUES(
 'La Altagarcia',
 '23000');
 
-insert into locacion
+insert into locaciones
 (id_locacion,ciudad,provincia,codigo_postal)
 VALUES(
 2,
@@ -14,7 +14,7 @@ VALUES(
 'Mao',
 '61000');
 
-insert into locacion
+insert into locaciones
 (id_locacion,ciudad,provincia,codigo_postal)
 VALUES(
 3,
@@ -22,7 +22,7 @@ VALUES(
 'Santiago',
 '51000');
 
-insert into locacion
+insert into locaciones
 (id_locacion,ciudad,provincia,codigo_postal)
 VALUES(
 4,
@@ -30,7 +30,7 @@ VALUES(
 'Santo Domingo',
 '11206');
 
-insert into locacion
+insert into locaciones
 (id_locacion,ciudad,provincia,codigo_postal)
 VALUES(
 5,
