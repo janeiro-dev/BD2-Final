@@ -1,6 +1,8 @@
-DROP TABLE empleados;
+DROP TABLE empleados_sucursal;
 
 DROP TABLE vehiculos_en_mantenimiento;
+
+DROP TABLE tipos_de_mantenimiento;
 
 DROP TABLE facturas_mantenimiento;
 
