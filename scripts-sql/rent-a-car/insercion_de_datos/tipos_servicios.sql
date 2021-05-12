@@ -4,7 +4,7 @@ VALUES(
 1,
 'Electricidad',
 905,
-'Suplidora de piezas de vehiculos');
+'Reparaciones de equipos electricos');
 
 insert into tipos_servicios
 (id_tipo_servicio,nombre,codigo,descripcion)
@@ -35,6 +35,6 @@ insert into tipos_servicios
 VALUES(
 5,
 'Ebanisteria',
-908,
+909,
 'Mantenimiento,reparacion y venta de muebles');
 

@@ -1,35 +1,35 @@
-insert into RENTA_CAR.otros_servicios
-(id_servicio,id_empleado_proveedor
-,id_sucursal,id_tipo_servicio,costo,descripcion)
+insert into otros_servicios
+(id_servicio,id_empleado_proveedor,id_sucursal,descripcion,costo)
 VALUES(
 1,
 5,
 1,
-3,
-25985,
-'Reparacion lavamanos, cambio de todos los grifos');
+'Reparacion lavamanos, cambio de todos los grifos',
+25985);
 
-insert into RENTA_CAR.otros_servicios
-(id_servicio,id_empleado_proveedor
-,id_sucursal,id_tipo_servicio,costo,descripcion)
+insert into otros_servicios
+(id_servicio,id_empleado_proveedor,id_sucursal,descripcion,costo)
 VALUES(
 2,
 7,
 1,
-4,
-1985,
-'Limpieza rutinaria aire');
+'Limpieza rutinaria aire',
+1985);
 
-insert into RENTA_CAR.otros_servicios
-(id_servicio,id_empleado_proveedor
-,id_sucursal,id_tipo_servicio,costo,descripcion)
+insert into otros_servicios
+(id_servicio,id_empleado_proveedor,id_sucursal,descripcion,costo)
 VALUES(
 3,
 10,
 1,
+<<<<<<< HEAD
 5,
 86080,
 'Venta 3 escritorios');
 
 
 
+=======
+'Venta 3 escritorios',
+86080);
+>>>>>>> upstream/dev
