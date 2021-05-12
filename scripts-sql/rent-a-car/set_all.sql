@@ -2,12 +2,17 @@ ALTER SESSION SET "_ORACLE_SCRIPT" = true;
 CREATE USER administrador IDENTIFIED BY password;
 GRANT ALL PRIVILEGES TO administrador;
 GRANT UNLIMITED TABLESPACE TO administrador;
+ALTER SESSION SET CURRENT_SCHEMA = administrador;
 
--- Tables --
-start ./tablas/create_all_tables_rentacar.sql
+-- Tables
+start tablas/create_all_tables_rentacar.sql
 
 -- Sequences
--- start secuencias/crear_secuencias.sql
+start secuencias/crear_secuencias.sql
+
+-- Procedures
+start procedimientos/proc_create_new_user.sql
+start procedimientos/proc_drop_user.sql
 
 -- Views
 
@@ -15,7 +20,7 @@ start ./tablas/create_all_tables_rentacar.sql
 
 -- Triggers
 
-Inserts
+-- Inserts
 start insercion_de_datos/locaciones.sql
 start insercion_de_datos/direcciones.sql
 start insercion_de_datos/clientes.sql
@@ -38,4 +43,6 @@ start insercion_de_datos/tipos_de_mantenimiento.sql
 start insercion_de_datos/vehiculos_en_mantenimiento.sql
 /* start insercion_de_datos/empleados_sucursal.sql -- todavia no estoy seguro de esta tabla*/
 
--- Roles --
+-- Roles
+start roles_y_usuarios/create_roles.sql
+start roles_y_usuarios/grant_permissions_roles.sql
