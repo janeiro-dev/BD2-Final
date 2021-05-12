@@ -4,7 +4,7 @@ AS
   solved reportes_de_averias.estado%type := 'solucionado';
 BEGIN
 
-  IF Check_Report_Exist(id) = true THEN
+  IF Check_Report_Exist(id) = false THEN
     RAISE REPORT_NO_EXIST;
   END IF;
 
