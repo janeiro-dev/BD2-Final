@@ -22,5 +22,14 @@ VALUES(
 3,
 10,
 1,
+<<<<<<< HEAD
+5,
+86080,
+'Venta 3 escritorios');
+
+
+
+=======
 'Venta 3 escritorios',
 86080);
+>>>>>>> upstream/dev
