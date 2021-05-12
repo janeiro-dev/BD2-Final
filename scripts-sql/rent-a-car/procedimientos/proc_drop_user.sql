@@ -2,14 +2,9 @@ CREATE OR REPLACE PROCEDURE Drop_User (user_name varchar)
 AS
   query varchar(100);
   USER_NO_EXIST exception;
-  num_users integer;
 BEGIN
 
-  -- Verificar si usuario existe --
-
-  SELECT COUNT(*) INTO num_users FROM all_users WHERE username=UPPER(user_name);
-
-  IF (num_users = 0) THEN
+  IF Check_User_Exist(user_name) = false THEN
     RAISE USER_NO_EXIST;
   END IF;
 
