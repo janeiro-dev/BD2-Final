@@ -1,7 +1,7 @@
 CREATE OR REPLACE VIEW vehiculos_disponibles 
     ( marca
     , modelo
-    , año_de_fabricacion
+    , fecha_de_fabricacion
     , kilometraje
     , monto_de_deposito
     , costo_por_dia
