@@ -15,6 +15,11 @@ start procedimientos/proc_create_new_user.sql
 start procedimientos/proc_drop_user.sql
 
 -- Views
+start vistas/averias_pendientes.sql
+start vistas/info_clientes.sql
+start vistas/rentas.sql
+start vistas/reportes_sobre_vehiculos.sql
+start vistas/vehiculos_disponibles.sql
 
 -- Synonyms
 
