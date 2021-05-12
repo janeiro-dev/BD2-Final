@@ -10,7 +10,7 @@ CREATE ROLE RECEPCIONISTA;
 prompt '*** Creando rol Conductor...'
 CREATE ROLE CONDUCTOR;
 
-prompt '*** Creando rol Lavador...'
-CREATE ROLE mecanico;
+prompt '*** Creando rol Mecanico...'
+CREATE ROLE MECANICO;
 
 
