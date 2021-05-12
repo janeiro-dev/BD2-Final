@@ -42,9 +42,9 @@ CREATE TABLE clientes
     , tipo_identificacion   VARCHAR2(20)
     , numero_identificacion VARCHAR2(20)
     , numero_licencia_cond  VARCHAR2(20)
-    , telefono          VARCHAR2(20)
     , edad              NUMBER
-    , nacionalidad      NUMBER
+    , nacionalidad      VARCHAR2(20)
+    , telefono          VARCHAR2(20)
     , id_direccion      NUMBER
     );
 
@@ -193,6 +193,7 @@ CREATE TABLE reportes_de_averias
     , id_vehiculo   NUMBER NOT NULL
     , descripcion   VARCHAR2(300) NOT NULL
     , estado        VARCHAR2(15)
+    , fecha         DATE 
     , prioridad     NUMBER NOT NULL
     );
 
@@ -383,7 +384,7 @@ ADD ( CONSTRAINT id_otro_serv_pk
 -- facturas de mantenimiento
 CREATE TABLE facturas_mantenimiento
     ( id_factura    NUMBER
-    , detalle       NUMBER
+    , detalle       VARCHAR2(300)
     , monto         NUMBER
     , descripcion   VARCHAR2(600)
     );
@@ -396,14 +397,25 @@ ADD ( CONSTRAINT id_factura_pk
             PRIMARY KEY (id_factura)
     );
 
--- vehiculos en mantenimiento
 -- tipo_mantenimiento: 1 => preventivo, 2 => predictivo, 3 => correctivo 
+CREATE TABLE tipos_de_mantenimiento
+    ( id_tipo_mantenimiento NUMBER
+    , nombre        VARCHAR2(15)
+    , descripcion   VARCHAR2(600)
+    );
+
+ALTER TABLE tipos_de_mantenimiento
+ADD ( CONSTRAINT id_tipo_mant_pk
+            PRIMARY KEY (id_tipo_mantenimiento)
+    );
+
+-- vehiculos en mantenimiento
 CREATE TABLE vehiculos_en_mantenimiento
     ( id_mantenimiento      NUMBER
     , id_vehiculo           NUMBER NOT NULL
     , id_empleado_proveedor NUMBER NOT NULL
     , id_factura            NUMBER NOT NULL
-    , tipo_mantenimiento    NUMBER NOT NULL
+    , id_tipo_mantenimiento NUMBER NOT NULL
     , fecha_entrada         DATE NOT NULL
     , fecha_salida          DATE
     );
@@ -423,10 +435,13 @@ ADD ( CONSTRAINT id_mantenimiento_pk
     , CONSTRAINT id_factura_fk
             FOREIGN KEY (id_factura)
                 REFERENCES facturas_mantenimiento(id_factura)
+    , CONSTRAINT id_tipo_mantenimiento_fk
+            FOREIGN KEY (id_tipo_mantenimiento)
+                REFERENCES tipos_de_mantenimiento(id_tipo_mantenimiento)
     );
 
 -- empleados
-CREATE TABLE empleados
+CREATE TABLE empleados_sucursal
     ( id_empleado NUMBER
     ,  id_sucursal NUMBER
     );
