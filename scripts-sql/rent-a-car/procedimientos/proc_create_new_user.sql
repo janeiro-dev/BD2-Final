@@ -2,14 +2,9 @@ CREATE OR REPLACE PROCEDURE Create_New_User (user_name varchar, user_pass varcha
 AS
   query varchar(100);
   USER_EXIST exception;
-  num_users integer;
 BEGIN
 
-  -- Verificar si usuario ya existe --
-
-  SELECT COUNT(*) INTO num_users FROM all_users WHERE username=UPPER(user_name);
-
-  IF (num_users > 0) THEN
+  IF Check_User_Exist(user_name) = true THEN
     RAISE USER_EXIST;
   END IF;
 

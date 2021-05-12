@@ -10,15 +10,24 @@ start tablas/create_all_tables_rentacar.sql
 -- Sequences
 start secuencias/crear_secuencias.sql
 
+-- Functions
+start funciones/func_check_user_exist.sql
+start funciones/func_check_location_exist.sql
+start funciones/func_check_address_exist.sql
+start funciones/func_check_client_exist.sql
+
 -- Procedures
 start procedimientos/proc_create_new_user.sql
 start procedimientos/proc_drop_user.sql
+start procedimientos/proc_set_location.sql
+start procedimientos/proc_set_address.sql
+start procedimientos/proc_register_client.sql
 
 -- Views
+start vistas/reportes_sobre_vehiculos.sql
 start vistas/averias_pendientes.sql
 start vistas/info_clientes.sql
 start vistas/rentas.sql
-start vistas/reportes_sobre_vehiculos.sql
 start vistas/vehiculos_disponibles.sql
 
 -- Synonyms
