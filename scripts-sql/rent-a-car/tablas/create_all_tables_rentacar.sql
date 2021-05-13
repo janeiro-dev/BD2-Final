@@ -440,17 +440,3 @@ ADD ( CONSTRAINT id_mantenimiento_pk
                 REFERENCES tipos_de_mantenimiento(id_tipo_mantenimiento)
     );
 
--- empleados de la sucursal
-CREATE TABLE empleados_sucursal
-    ( id_empleado NUMBER
-    ,  id_sucursal NUMBER
-    );
-
-CREATE UNIQUE INDEX id_empleado_ui
-ON empleados_sucursal (id_empleado);
-
-ALTER TABLE empleados_sucursal
-ADD ( constraint id_sucursal_emp_fk
-            FOREIGN KEY (id_sucursal)
-                REFERENCES sucursales(id_sucursal)
-    );
