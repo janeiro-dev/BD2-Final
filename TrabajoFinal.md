@@ -1,9 +1,9 @@
 # Trabajo final
 
 ## Descripción y naturaleza de la empresa
-____ es una empresa privada de alquiler de vehículos fundada en el año 2021, ofrecemos tarifas de alquiler económicas, así como una experiencia de servicio al cliente agradable y sin complicaciones, contamos con una amplia gama de vehículos para satisfacer tus necesidades, ya que contamos con el respaldo de los principales grupos automovilísticos del país.
+__Your Rent-a-Car__ es una empresa privada de alquiler de vehículos fundada en el año 2021, ofrecemos tarifas de alquiler económicas, así como una experiencia de servicio al cliente agradable y sin complicaciones, contamos con una amplia gama de vehículos para satisfacer tus necesidades, ya que contamos con el respaldo de los principales grupos automovilísticos del país.
 
-En ____ atendemos las necesidades de viajeros de placer tanto extranjeros como locales que desean alquilar un vehículo con una oferta de excelente relación precio calidad. Nuestro personal está altamente capacitado y tiene como objetivo brindar un servicio extraordinario en nuestro Centro de Contacto.
+En __Your Rent-a-Car__ atendemos las necesidades de viajeros de placer tanto extranjeros como locales que desean alquilar un vehículo con una oferta de excelente relación precio calidad. Nuestro personal está altamente capacitado y tiene como objetivo brindar un servicio extraordinario en nuestro Centro de Contacto.
 <br/>
 <br/>
 ## Misión, Visión, valores y objetivos de la empresa
@@ -35,5 +35,18 @@ Posicionarnos como la primera opción para rentar un vehículo, tanto para extra
 <br/>
 <br/>
 
-## Modelo de datos (no esta terminado)
-![Modelo de datos](./imagenes/Modelo_de_datos_v0.1.png)
+## Diagrama E-R
+![Modelo de datos](./imagenes/Diagrama_ER.jpeg)
+
+<br/>
+<br/>
+
+## Modelo de datos
+### Rent-A-Car
+![Modelo de datos](./imagenes/Modelo_fisico.jpeg)
+
+<br/>
+<br/>
+
+### HR-empleados
+![Modelo de datos](./imagenes/Modelo_datos_HR.jpeg)
