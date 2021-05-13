@@ -15,6 +15,9 @@ start funciones/func_check_user_exist.sql
 start funciones/func_check_location_exist.sql
 start funciones/func_check_address_exist.sql
 start funciones/func_check_client_exist.sql
+start funciones/func_check_report_exist.sql
+start funciones/func_check_vehicle_exist.sql
+start funciones/func_get_current_date.sql
 
 -- Procedures
 start procedimientos/proc_create_new_user.sql
@@ -22,6 +25,8 @@ start procedimientos/proc_drop_user.sql
 start procedimientos/proc_set_location.sql
 start procedimientos/proc_set_address.sql
 start procedimientos/proc_register_client.sql
+start procedimientos/proc_new_damage_report.sql
+start procedimientos/proc_set_solved_report.sql
 
 -- Views
 start vistas/reportes_sobre_vehiculos.sql
