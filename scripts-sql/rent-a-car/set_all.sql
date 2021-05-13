@@ -36,6 +36,7 @@ start vistas/rentas.sql
 start vistas/vehiculos_disponibles.sql
 
 -- Synonyms
+start sinonimos/synonyms.sql
 
 -- Triggers
 start triggers/verificar_kilometraje.sql
