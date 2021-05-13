@@ -14,7 +14,6 @@ BEGIN
 
   -- Insertar locacion --
 
---  INSERT INTO locaciones ("id_locacion", "ciudad", "provincia", "codigo_postal", "pais") 
   INSERT INTO locaciones VALUES (id_locacion, ciudad, provincia, codigo_postal, pais);
 
   DBMS_OUTPUT.PUT_LINE(chr(10) || 'Locacion agregada!');

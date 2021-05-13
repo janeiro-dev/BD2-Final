@@ -28,7 +28,6 @@ BEGIN
 
   -- Insertar nuevo cliente en tabla --
 
-  --INSERT INTO clientes ("id_cliente", "primer_nombre", "apellido", "tipo_identificacion", "numero_identificacion", "numero_licencia_cond", "edad", "nacionalidad", "telefono", "id_direccion") 
   INSERT INTO clientes VALUES (new_id_cliente, nombre, apellido, tipo_ident, num_ident, num_lic, edad, nacionalidad, telefono, id_direccion);
 
   DBMS_OUTPUT.PUT_LINE(chr(10) || 'Cliente registrado!');
