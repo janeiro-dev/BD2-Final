@@ -440,7 +440,7 @@ ADD ( CONSTRAINT id_mantenimiento_pk
                 REFERENCES tipos_de_mantenimiento(id_tipo_mantenimiento)
     );
 
--- empleados
+-- empleados de la sucursal
 CREATE TABLE empleados_sucursal
     ( id_empleado NUMBER
     ,  id_sucursal NUMBER

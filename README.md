@@ -15,7 +15,7 @@ En este apartado subiran su trabajo final, que consiste, como indicamos al inici
 * constraints
 * Sequences
 * _usuarios_
-* _db-link_
+* db-link
 
 Y el documento especficando la descripcion general de la base de datos, el modelo logico, diagrama entidad - relacion, diccionario logico, diccionario fisico y todos los comandos para crear la base de datos, printscreen de todas las tablas con sus datos., etc.
 
@@ -29,3 +29,4 @@ Y el documento especficando la descripcion general de la base de datos, el model
 * funciones
 * procedure
 * triggers
+* db-link
