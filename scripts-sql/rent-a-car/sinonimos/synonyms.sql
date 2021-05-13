@@ -8,6 +8,9 @@ FOR New_Damage_Report;
 CREATE OR REPLACE SYNONYM SolveReport
 FOR Set_Solved_Report;
 
+CREATE OR REPLACE SYNONYM RentVehicle
+FOR Set_New_Rented_Car;
+
     -- Para Vistas --
 CREATE OR REPLACE SYNONYM InfoClientes
 FOR Informacion_sobre_Clientes;

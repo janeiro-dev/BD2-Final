@@ -18,7 +18,6 @@ BEGIN
 
   -- Insertar direccion --
 
---  INSERT INTO direcciones ("id_direccion", "id_locacion", "calle", "numero") 
   INSERT INTO direcciones VALUES (id_direccion, id_locacion, calle, numero);
 
   DBMS_OUTPUT.PUT_LINE(chr(10) || 'Direccion agregada!');

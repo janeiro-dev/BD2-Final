@@ -4,4 +4,6 @@ DROP PROCEDURE New_Damage_Report;
 DROP PROCEDURE Register_Client;
 DROP PROCEDURE Set_Address;
 DROP PROCEDURE Set_Location;
+DROP PROCEDURE Set_New_Rented_Car;
+DROP PROCEDURE Set_Returned_Car;
 DROP PROCEDURE Set_Solved_Report;
