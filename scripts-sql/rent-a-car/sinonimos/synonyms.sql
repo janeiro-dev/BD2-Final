@@ -34,3 +34,6 @@ FOR Empleados_Proveedores_Servicios;
 CREATE OR REPLACE SYNONYM VehiculosMant
 FOR Vehiculos_en_Mantenimiento;
 
+-- sinonimo a dblink
+CREATE OR REPLACE SYNONYM empleados_sucursal
+FOR empleados@dblinkhr;

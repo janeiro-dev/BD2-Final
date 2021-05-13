@@ -7,7 +7,7 @@
 En este apartado subiran su trabajo final, que consiste, como indicamos al inicio del semestre en diseñar e implementar una base de datos, con por lo menos 20-25 tablas, ademas de contener los siguientes objetos: 
 * indices
 * vistas
-* _sinonimos_
+* sinonimos
 * funciones
 * procedure
 * _package_
@@ -21,7 +21,8 @@ Y el documento especficando la descripcion general de la base de datos, el model
 
 ### Realizados:
 * indices
-* vistas - rivas
+* vistas
+* sinonimos
 * constraints
 * sequences
 * roles
