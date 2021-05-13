@@ -10,8 +10,8 @@ VALUES(
 65,
 '22588996635',
 'ingluisv@gmail.com',
-'Luis',
-'Velmonte');
+' Alfredo',
+'Montero');
 
 insert into empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
@@ -38,8 +38,8 @@ VALUES(
 27,
 '00188996457',
 'maira1122@gmail.com',
-'Maira',
-'Placido');
+'Jimena',
+'Medina');
 
 insert into empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
@@ -66,8 +66,8 @@ VALUES(
 26,
 '00157585965',
 'jl004@gmail.com',
-'Jose',
-'Lara');
+'Pablo',
+'Fernandez');
 
 insert into empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
@@ -80,8 +80,8 @@ VALUES(
 34,
 '00145769557',
 'Plier@gmail.com',
-'Pablo',
-'Candelier');
+'Manuel',
+'Jimenez Rodriguez');
 
 insert into empleados
 (id_empleado,id_puesto_trabajo,id_sucursal,
