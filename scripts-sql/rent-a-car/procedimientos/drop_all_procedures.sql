@@ -1,0 +1,7 @@
+DROP PROCEDURE Create_New_User;
+DROP PROCEDURE Drop_User;
+DROP PROCEDURE New_Damage_Report;
+DROP PROCEDURE Register_Client;
+DROP PROCEDURE Set_Address;
+DROP PROCEDURE Set_Location;
+DROP PROCEDURE Set_Solved_Report;

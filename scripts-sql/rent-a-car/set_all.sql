@@ -38,6 +38,11 @@ start vistas/vehiculos_disponibles.sql
 -- Synonyms
 
 -- Triggers
+start triggers/verificar_kilometraje.sql
+start triggers/actualizar_kilometraje.sql
+start triggers/enviar_a_mantenimiento.sql
+start triggers/evitar_borrar_registros_rentas.sql
+start triggers/evitar_borrar_reportes_de_averias.sql
 
 -- Inserts
 start insercion_de_datos/locaciones.sql
